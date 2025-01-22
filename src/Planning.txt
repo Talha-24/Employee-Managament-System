@@ -1,0 +1,29 @@
+
+
+//Breaking Into Components
+/LoginForm
+/Admin Dashboard   
+/EmployDashboard
+..Login Components:
+ Two Input Fields form Email and Password with Two way binding.
+..AdminDashboard Components:
+Header
+Create Task
+Assigned Task Status
+..EmployDashboard Components:
+Header
+Task Status 
+TaskList
+
+..Important Concepts:
+Two Binding of LoginForm
+LoginForm linking with EmployDashboard and AdminDashboard
+Setting Data in Local Storage //Tip: Make Separate Component for Local Storage
+Getting Data in Local Storage //Two export functions,one is for storing data in Local Storage and Second is for Getting data from Local Storage..
+Context API's (Transferring local storage data within all Components through Context Api).First we access the localstorage data in Context File and then save it in HooksStates and then transfer it through provider(including readable document as well as writing document withing an array)
+Receiving Data in App Component (useContext Method)..
+
+
+
+
+

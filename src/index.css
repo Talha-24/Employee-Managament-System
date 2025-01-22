@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+
+}
+body{ 
+    background-color: #000;
+    color: white;
+}
+#loginbtn:active{
+    scale:0.8;
+    border-radius: 3px;
+}
+#createBtn:active{
+    scale: 0.8;
+    background-color: red;
+    
+}
+
+@media (max-width:1000px) {
+    #admincomponents{
+      
+
+    }
+    #admincomponents form{
+        background: #000;
+        display: flex;
+        flex-direction: column;
+    }
+    #admincomponents form h3{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    #inputs{
+        width: 100%;
+        margin: none;
+
+    }
+    #inputs input{
+         margin-top: 1vw;
+        width: 100%;
+    }
+    #textarea{
+        margin-top: 20px;
+        width: 100%;
+    }
+    #textarea h3{
+        margin: 10px 0;
+    }
+  
+    
+}
+@media (max-width: 510px){
+    #adminh1{
+        line-height: 7vw;
+        font-size: 3vw;
+       
+
+    }
+    #adminh1 span{
+        line-height: 1vw;
+        font-size: 4vw;
+    }
+    #adminbtn{
+        padding: 0.5vw 4px;
+      
+        font-size: 4vw;
+        text-align: justify;
+        
+
+    }
+    #adminmsgtext{
+        font-size: 10px;
+        line-height: 4vw;
+    }
+    #employmsg{
+        font-size: 8px;
+        line-height: 2vw;
+        color: yellow;
+        text-align: justify;
+    }
+    #loginform{
+     
+        align-self: center;
+       border: none;
+       margin-left: 100px;
+        
+      }
+}
+@media (max-width: 400px) {
+   
+    #admincomponents form{
+        background: #000;
+        display: flex;
+        flex-direction: column;
+    }
+    #admincomponents form h3{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    #inputs{
+        width: 100%;
+        margin: none;
+
+    }
+    #inputs input{
+        padding: 2vw 2vw;
+         margin-top: 1vw;
+        width: 100%;
+    }
+    #textarea{
+        margin-top: 20px;
+        width: 100%;
+        height: 40vh;
+    }
+    #textarea h3{
+        margin: 10px 0;
+    }
+    
+}

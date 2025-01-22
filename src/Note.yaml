@@ -1,0 +1,5 @@
+All of the external CSS I am applying is just only for the sake of reponsivness 
+
+Improvements:
+ Whenever an employe accepts task(assigned by Admin), the count for Active Task should be incremented.
+ 

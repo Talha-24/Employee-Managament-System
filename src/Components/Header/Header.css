@@ -1,0 +1,81 @@
+
+
+
+
+
+@media (max-width: 446px) {
+    #logoutbtn{
+        padding: 2vmin 2vmin;
+        font-size: 5vw;
+     
+    }
+    #username{
+        font-size: 7vw;
+    }
+   #admindiv{
+    padding: 4vw;
+   }
+
+    
+}
+
+@media (max-width: 544px) {
+
+    
+    #logoutbtn{
+        padding: 1.7vw 1.2vw;
+        font-size: 4vw;
+    }
+    #username{
+        font-size: 6vw; 
+    }
+    #hellotext{
+        font-size: 4vw;
+        
+        
+    }
+   #admindiv{
+    padding: 4vw;
+   }
+
+    
+}
+
+
+
+
+
+
+@media (max-width: 463px) {
+
+    
+    #logoutbtn{
+        padding: 1.7vw 0.8vw;
+        font-size: 4vw;
+    }
+    #username{
+        font-size: 5vw; 
+    }
+    #hellotext{
+        font-size: 4vw;
+        
+        
+    }
+   #admindiv{
+    padding: 4vw;
+   }
+
+    
+}
+
+
+
+@media (max-width: 463px) {
+
+    
+    #logoutbtn{
+        padding: 1.7vw 1vw;
+        font-size: 4vw;
+    }
+  
+}
