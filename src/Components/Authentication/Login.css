@@ -16,3 +16,43 @@
         font-size: 5.2vw;
     }
 } */
+ @media (max-width: 510px) {
+    #childlogin{
+        padding: 5vw 10vmin;
+    }
+    #childlogin input{
+        padding: 1vw 10px;
+        border: 2px solid #9333ea;;
+        font-size: 4.4vw;
+    }
+    #childlogin button{
+        padding: 5px;
+        font-size: 1rem;
+        border: 2px solid #9333ea;
+    }
+    #childlogin h3{
+        font-size: 4vw;
+    }
+ }
+
+
+ @media (max-width: 386px) {
+    #childlogin{
+        padding: 5vw 10vmin;
+    }
+    #childlogin input{
+        padding: .5vw 10px;
+        border: 2px solid #9333ea;;
+        font-size: 4.4vw;
+    }
+    #childlogin button{
+        padding: 5px;
+        font-size: 1rem;
+        border: 2px solid #9333ea;
+    }
+    #childlogin h3{
+        font-size: 4vw;
+    }
+
+    
+ }

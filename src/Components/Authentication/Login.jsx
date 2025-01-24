@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import "./Login.css";
 const Login = ({LoginFunction}) => {
 
     const [email,setEmail]=useState('');
@@ -17,11 +17,11 @@ const Login = ({LoginFunction}) => {
 
 
   return (
-    <div className='w-screen h-screen flex items-center justify-center p-20 '>
+    <div className='w-screen h-screen flex items-center justify-center p-[30vmin]'  id="parentlogin">
         <form onSubmit={(e)=>{
             e.preventDefault();
             LoginHandler();
-        }} id="loginform" className='flex flex-col  border-[1px] border-purple-600 py-[15vh] px-[16vh]'>
+        }} id='childlogin'  className='flex flex-col  border-[1px] border-purple-600 p-[16vmin]'>
             <div>
                 <div>
                 <h3 className='text-white  text-xl pt-4 pb-1 font-medium'>Email Address</h3>
