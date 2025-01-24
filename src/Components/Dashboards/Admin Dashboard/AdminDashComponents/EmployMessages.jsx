@@ -16,7 +16,7 @@ const EmployMessages = (propse) => {
     }
     console.log("User",user[0]);
     return (
-        <div className='  mt-1 border-[1px] px-10 border-purple-600  '>
+        <div className='mt-1 border-[1px] px-10 border-purple-600'>
         <div className='flex items-center justify-between mt-5  border-yellow-600'>
             <h3 className='w-1/3 font-medium text-[4vmin]'>Name</h3>
             <p className='w-1/3 font-medium text-[4vmin]'>Message </p>
