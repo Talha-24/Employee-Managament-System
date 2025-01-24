@@ -17,7 +17,7 @@ const Login = ({LoginFunction}) => {
 
 
   return (
-    <div className='w-screen h-screen flex items-center justify-center p-[30vmin]'  id="parentlogin">
+    <div className='w-screen h-[100vh] flex items-center justify-center p-[30vmin]'  id="parentlogin">
         <form onSubmit={(e)=>{
             e.preventDefault();
             LoginHandler();
