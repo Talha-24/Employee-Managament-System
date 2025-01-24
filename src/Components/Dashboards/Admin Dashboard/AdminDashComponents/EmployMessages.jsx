@@ -23,13 +23,13 @@ const EmployMessages = (propse) => {
             <p className='w-1/3 text-3xl text-[4vmin] text-yellow-500 font-serif text-center'>Submit</p>
 
         </div>
-        {user.map((element)=>{
+        {user.map((element,idx)=>{
    
     
 
             
             return(
-                <div className='flex justify-between py-2   mt-2'>
+                <div key={idx} className='flex justify-between py-2   mt-2'>
                 <h3 id="adminmsgtext" className='w-1/3  text-xl'>{element.firstName}</h3>
                 <p id='employmsg' className='w-1/3 text-xl text-justify'>{element.taskmsg[0]}  </p>
                 <div className='w-1/3 flex justify-center'>
