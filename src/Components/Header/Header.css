@@ -79,3 +79,55 @@
     }
   
 }
+@media (max-width: 510px) {
+    #adminbtn{
+        padding: .6vw 1vw;
+        font-size: 3vw;
+        text-align: justify;
+    } 
+    
+}
+
+@media (max-width: 493px) {
+    #adminbtn{
+        padding: .4vw 1vw;
+        font-size: 3vw;
+        text-align: justify;
+        
+
+    } 
+    #adminh1 span{
+        font-size: 22px;
+    }
+    
+}
+
+
+@media (max-width: 392px) {
+    #adminbtn{
+        padding: .2vw 2vw;
+        font-size: 10px;
+        text-align: justify;
+        
+
+    } 
+    #adminh1 span{
+        font-size: 20px;
+    }
+    
+}
+
+
+@media (max-width: 363px) {
+    #adminbtn{
+        padding: .2vw 2vw;
+        font-size: 10px;
+        text-align: justify;
+        
+
+    } 
+    #adminh1 span{
+        font-size: 20px;
+    }
+    
+}

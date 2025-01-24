@@ -52,7 +52,7 @@ body{
     
 }
 @media (max-width: 510px){
-    #adminh1{
+    /* #adminh1{
         line-height: 7vw;
         font-size: 3vw;
        
@@ -61,15 +61,14 @@ body{
     #adminh1 span{
         line-height: 1vw;
         font-size: 4vw;
-    }
+    }*/
     #adminbtn{
-        padding: 0.5vw 4px;
-      
-        font-size: 4vw;
+        padding: .6vw 1vw;
+        font-size: 3vw;
         text-align: justify;
         
 
-    }
+    } 
     #adminmsgtext{
         font-size: 10px;
         line-height: 4vw;
