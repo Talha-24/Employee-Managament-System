@@ -1,5 +1,6 @@
 import React, { useContext, useState } from 'react'
 import { DataSender } from '../../../Context API/AuthContext';
+import "./CreateTask.css";
 
 const CreateTask = () => {
 
@@ -43,8 +44,8 @@ const CreateTask = () => {
     }
 
   return (
-    <div id="admincomponents" className='border-[1px] border-purple-600 mt-5 '>
-        <form onSubmit={(e)=>{e.preventDefault();}} className='flex  justify-between m-10 '>
+    <div id="admincomponents" className='border-[1px] border-purple-600 mt-5'>
+        <form onSubmit={(e)=>{e.preventDefault();}} className='flex  justify-between p-[4vw] '>
             <div id="inputs" className='w-1/2   '>    
                 <div>
                     <h3 className='text-xl  font-bold mt-2'>Task Title</h3>
